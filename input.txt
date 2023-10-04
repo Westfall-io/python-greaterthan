@@ -1,0 +1,2 @@
+var1 : {{ digitalforge('var1') }}
+var2 : {{ digitalforge('var2') }}
