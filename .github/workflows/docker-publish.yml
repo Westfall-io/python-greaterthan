@@ -19,7 +19,7 @@ env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: harbor.digitalforge.app
   # github.repository as <account>/<repo>
-  IMAGE_NAME: python-sample-containers/windripper
+  IMAGE_NAME: python-sample-containers/python-greaterthan
 
 permissions: write-all
 
