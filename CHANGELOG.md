@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.0.2 (2024-11-06)
+
+### :zap:
+
+* :zap: Removing signing webhooks ([`6e5beec`](https://github.com/Westfall-io/python-greaterthan/commit/6e5beec78031be910d0f7b8c5a6a4b49bbcee487))
+
 ## v0.0.1 (2024-11-06)
 
 ## v0.0.0 (2024-11-06)
