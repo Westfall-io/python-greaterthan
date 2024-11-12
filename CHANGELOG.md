@@ -1,6 +1,12 @@
 # CHANGELOG
 
+## v0.1.0 (2024-11-12)
+
 ## v0.0.2 (2024-11-06)
+
+### :sparkles:
+
+* :sparkles: Added file input handling ([`0d7f697`](https://github.com/Westfall-io/python-greaterthan/commit/0d7f697654ec610b3836144348f1dce1b5c01947))
 
 ### :zap:
 
