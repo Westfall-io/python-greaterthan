@@ -1,7 +1,7 @@
 from yaml import load, SafeLoader
 from yaml.constructor import ConstructorError
 
-if __name__ == '__main__':
+def main():
     with open('input.txt', 'r') as f:
         data = f.read()
         try:
@@ -12,7 +12,15 @@ if __name__ == '__main__':
                 .replace("{{ digitalforge('var2') }}", "2")
             data = load(data, Loader=SafeLoader)
 
+    if data['var1type'] == 'file':
+        with open(data['var1'], 'r') as f:
+            file_value = float(f.read())
+        data['var1'] = file_value
 
+    if data['var2type'] == 'file':
+        with open(data['var2'], 'r') as f:
+            file_value = float(f.read())
+        data['var2'] = file_value
 
     with open('output.txt', 'w') as f:
         if data['var1'] > data['var2']:
@@ -21,3 +29,6 @@ if __name__ == '__main__':
         else:
             f.write('False')
             print('False')
+
+if __name__ == '__main__':
+    main()
