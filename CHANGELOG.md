@@ -1,6 +1,12 @@
 # CHANGELOG
 
+## v0.1.1 (2024-12-04)
+
 ## v0.1.0 (2024-11-12)
+
+### :zap:
+
+* :zap: Adding more :memo: ([`c07f4f4`](https://github.com/Westfall-io/python-greaterthan/commit/c07f4f48da8d4d4bd728eaf8f338fd3747bd4823))
 
 ## v0.0.2 (2024-11-06)
 
